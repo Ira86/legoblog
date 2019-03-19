@@ -1,1 +1,1 @@
-#legoblog.github.io
+legoblog.github.io
