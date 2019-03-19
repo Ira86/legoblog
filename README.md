@@ -1,2 +1,2 @@
-legoblog.github.io
-Welcome to Lego Blog with inspiration and posts!
+<b>legoblog.github.io</b> <br>
+Lego Blog with posts and inspiration
