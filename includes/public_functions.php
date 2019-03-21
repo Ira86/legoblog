@@ -94,8 +94,10 @@ function getTopicNameById($id)
         $query = "SELECT * FROM topics";
  
         $result = mysqli_query($mysqli, $query);
-        $topics = mysqli_fetch_assoc($result);
-        var_dump($topics);
+        $topics = [];
+        while ($row = $result->fetch_assoc()) {
+            $topics[] = $row;
+        }        
         return $topics;
  
     }

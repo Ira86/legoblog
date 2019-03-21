@@ -45,8 +45,8 @@
 				<div class="card-content">
 					<?php foreach ($topics as $topic): ?>
 						<a 
-							href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $topics['id'] ?>">
-							<?php echo $topics['name']; ?>
+							href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $topic['id'] ?>">
+							<?php echo $topic['name']; ?>
 						</a> 
 					<?php endforeach ?>
 				</div>

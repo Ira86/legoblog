@@ -23,7 +23,7 @@
 	<hr>
 	<?php foreach ($post as $posts): ?>
 		<div class="post" style="margin-left: 0px;">
-			<img src="<?php echo BASE_URL . '/static/images/' . $post['image']; ?>" class="post_image" alt="">
+		<?php printf('<img class="post_image" alt="" src="static/img/%s">', $post['image']); ?>
 			<a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
 				<div class="post_info">
 					<h3><?php echo $post['title'] ?></h3>
